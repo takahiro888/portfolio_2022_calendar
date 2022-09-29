@@ -1,17 +1,4 @@
 <?php
-$n = mt_rand(1,3);
-if ($n === 1){
-  $message = 'UI/UXデザイナー見習いです';
-}elseif($n === 2){
-  $message = 'プログラミング勉強中だぜ！';
-} else {
-  $message = 'PHPちょっとわかります';
-}
-
-echo $message;
-?>
-
-<?php
 //タイムゾーンを設定
 date_default_timezone_set('Asia/Tokyo');
 
